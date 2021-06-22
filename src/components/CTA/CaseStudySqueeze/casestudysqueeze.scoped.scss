@@ -1,0 +1,88 @@
+@import "../../../styles/globals.scss";
+input.hs-button.primary {
+    position: relative;
+    background: $black-gradient;
+    @apply shadow;
+    border-radius: 20px;
+    transition: $transition;
+    overflow: hidden;
+    z-index: 1;
+    margin-bottom: 20px;
+    max-width:200px;
+    border: 2px solid $purple;
+    padding-top:10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    span {
+        display: inline-block;
+        cursor: pointer;
+        padding: 20px;
+        line-height: 2rem;
+    }
+    &::before {
+        content:  "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: $gradient;
+        z-index: -1;
+        border-radius: 20px;
+        transition: $transition;
+    }
+
+
+    &:hover {
+        background: $gradient;
+
+        i {
+            color: $white-color;
+            transform: rotate(360deg);
+        }
+        h3 {
+            color: $white-color;
+        }
+        p {
+            color: $white-color;
+        }
+        a {
+            right: 20px;
+        }
+        &::before {
+            width: 100%;
+            background: $gradient;
+            border-radius: 60px 0 0 60px;
+        }
+    }
+    &.current {
+        border: 2px solid $purple;
+        background: $gradient;
+        color: $white;
+        i {
+            transform: rotate(360deg);
+            color: $white;
+
+        }
+        h3 {
+            color: $white;
+
+        }
+        p {
+            color: $white;
+
+        }
+        a {
+            right: 20px;
+        }
+        &::before {
+            width: 100%;
+            background: $gradient;
+            border-radius: 60px 0 0 60px;
+        }
+    }
+}

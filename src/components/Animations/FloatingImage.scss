@@ -1,0 +1,45 @@
+
+.floating-holder {
+    .floating-inner {
+      position: relative;
+    }
+
+    .floating-main-image-holder,
+    .floating-aux-image-holder {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    .floating-image-wrapper {
+      height: 100%;
+      transition-duration: 0.6s;
+      transition-timing-function: ease-out;
+
+      .floating-main-image {
+        box-shadow: rgba(137, 173, 255, 0.35) 7px 13px 35px 1px;
+      }
+
+      .floating-aux-image {
+        box-shadow: rgba(187, 193, 255, 0.45) 4px 5px 15px 1px;
+      }
+
+      .solo {
+        box-shadow: rgba(187, 193, 255, 0.45) -7px 13px 35px 4px;
+        top: 50%;
+        transform: translate(0, -50%);
+      }
+    }
+
+    .floating-main-image-holder {
+      z-index: 10;
+    }
+
+    img {
+      position: absolute;
+      max-width: unset;
+      border-radius: 8px;
+    }
+  }

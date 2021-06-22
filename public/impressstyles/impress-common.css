@@ -1,0 +1,389 @@
+/* impress.js doesn't require any particular CSS file.
+Each author should create their own, to achieve the visual style they want.
+Yet in practice many plugins will not do anything useful without CSS. (See for example mouse-timeout plugin.)
+This file contains sample CSS that you may want to use in your presentation.
+It is focused on plugin functionality, not the visual style of your presentation. */
+
+/* Using the substep plugin, hide bullet points at first, then show them one by one. */
+
+
+.text-9xl {
+    font-size: 7rem;
+}
+.text-9xl {
+    font-size: 5rem;
+}
+.underline {
+    text-decoration: underline;
+}
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+.text-9xl {
+    font-size: 7rem;
+}
+.underline {
+    text-decoration: underline;
+}
+.dincondensed {
+    font-family: 'DIN Condensed';
+}
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+    margin: revert;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+
+}
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+    margin: 0;
+}
+.h1, .h2, h2, h1 {
+    font-weight: 700;
+    font-family: 'DIN Condensed';
+    line-height: 2;
+}
+* {
+    box-sizing: border-box;
+}
+* {
+    --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(0, 153, 255, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+}
+* {
+    --tw-shadow: 0 0 #0000;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #3366FF;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body {
+    font-family: inherit;
+    line-height: inherit;
+}
+body {
+    font-family: 'Roboto';}
+p, .p, body, section {
+    font-family: 'Roboto', sans-serif;
+}
+p, .p, body, section {
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --azure-radiance: rgba(0, 153, 255, 1);
+    --licorice: rgba(18, 18, 18, 1);
+    --haiti: rgba(23, 16, 64, 1);
+    --log-cabin: rgba(33, 33, 33, 1);
+    --mine-shaft-2: rgba(45, 47, 51, 1);
+    --mine-shaft: rgba(51, 51, 51, 1);
+    --blue: rgba(51, 102, 255, 1);
+    --ship-gray: rgba(62, 62, 62, 1);
+    --purple-heart: rgba(102, 51, 255, 1);
+    --rock-blue: rgba(152, 180, 208, 1);
+    --rock-blue: rgba(153, 180, 209, 1);
+    --star-dust: rgba(160, 160, 160, 1);
+    --regent-st-blue: rgba(174, 215, 236, 1);
+    --biloba-flower: rgba(183, 163, 254, 1);
+    --botticelli: rgba(204, 217, 232, 1);
+    --link-water: rgba(219, 225, 235, 1);
+    --mystic: rgba(224, 232, 242, 1);
+    --athens-gray: rgba(231, 237, 245, 1);
+    --wild-sand: rgba(242, 244, 246, 1);
+    --white-lilac: rgba(247, 249, 252, 1);
+    --neon-carrot: rgba(254, 148, 60, 1);
+    --white: rgba(255, 255, 255, 1);
+    --font-size-xxxxxs: 6px;
+    --font-size-xxxxs: 11px;
+    --font-size-xxxs: 12px;
+    --font-size-xxs: 13px;
+    --font-size-xxs: 14px;
+    --font-size-xs: 15px;
+    --font-size-s: 16px;
+    --font-size-m: 17px;
+    --font-size-m: 48px;
+    --font-size-l: 20px;
+    --font-size-l: 28px;
+    --font-size-xl: 24px;
+    --font-size-xl: 40px;
+    --font-size-xxxl: 30px;
+    --font-size-xxxxxxl: 180px;
+    --font-size-xxxxxxxl: 260px;
+    --font-family-dincondensed-bold: "DINCondensed-Bold";
+    --font-family-roboto: "Roboto";
+    --font-family-roboto-bold: "Roboto-Bold";
+    --font-family-roboto-regular: "Roboto-Regular";
+}
+html {
+    line-height: 1.625;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--theme-ui-colors-text);
+    background-color: var(--theme-ui-colors-background);
+}
+html {
+    --theme-ui-colors-transparent: transparent;
+    --theme-ui-colors-black: #000;
+    --theme-ui-colors-white: #fff;
+    --theme-ui-colors-gray-1: #f7fafc;
+    --theme-ui-colors-gray-2: #edf2f7;
+    --theme-ui-colors-gray-3: #e2e8f0;
+    --theme-ui-colors-gray-4: #cbd5e0;
+    --theme-ui-colors-gray-5: #a0aec0;
+    --theme-ui-colors-gray-6: #718096;
+    --theme-ui-colors-gray-7: #4a5568;
+    --theme-ui-colors-gray-8: #2d3748;
+    --theme-ui-colors-gray-9: #1a202c;
+    --theme-ui-colors-red-1: #fff5f5;
+    --theme-ui-colors-red-2: #fed7d7;
+    --theme-ui-colors-red-3: #feb2b2;
+    --theme-ui-colors-red-4: #fc8181;
+    --theme-ui-colors-red-5: #f56565;
+    --theme-ui-colors-red-6: #e53e3e;
+    --theme-ui-colors-red-7: #c53030;
+    --theme-ui-colors-red-8: #9b2c2c;
+    --theme-ui-colors-red-9: #742a2a;
+    --theme-ui-colors-orange-1: #fffaf0;
+    --theme-ui-colors-orange-2: #feebc8;
+    --theme-ui-colors-orange-3: #fbd38d;
+    --theme-ui-colors-orange-4: #f6ad55;
+    --theme-ui-colors-orange-5: #ed8936;
+    --theme-ui-colors-orange-6: #dd6b20;
+    --theme-ui-colors-orange-7: #c05621;
+    --theme-ui-colors-orange-8: #9c4221;
+    --theme-ui-colors-orange-9: #7b341e;
+    --theme-ui-colors-yellow-1: #fffff0;
+    --theme-ui-colors-yellow-2: #fefcbf;
+    --theme-ui-colors-yellow-3: #faf089;
+    --theme-ui-colors-yellow-4: #f6e05e;
+    --theme-ui-colors-yellow-5: #ecc94b;
+    --theme-ui-colors-yellow-6: #d69e2e;
+    --theme-ui-colors-yellow-7: #b7791f;
+    --theme-ui-colors-yellow-8: #975a16;
+    --theme-ui-colors-yellow-9: #744210;
+    --theme-ui-colors-green-1: #f0fff4;
+    --theme-ui-colors-green-2: #c6f6d5;
+    --theme-ui-colors-green-3: #9ae6b4;
+    --theme-ui-colors-green-4: #68d391;
+    --theme-ui-colors-green-5: #48bb78;
+    --theme-ui-colors-green-6: #38a169;
+    --theme-ui-colors-green-7: #2f855a;
+    --theme-ui-colors-green-8: #276749;
+    --theme-ui-colors-green-9: #22543d;
+    --theme-ui-colors-teal-1: #e6fffa;
+    --theme-ui-colors-teal-2: #b2f5ea;
+Show All Properties (71 more)
+}
+html {
+    font-family: 'Roboto';
+      line-height: 1.5;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+html {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #3366FF;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #3366FF;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+img {
+    border-style: none !important;
+    border-width: 0 !important;
+}
+
+#impress .step .substep {
+    opacity: 0;
+}
+
+#impress .step .substep.substep-visible {
+    opacity: 1;
+    transition: opacity 1s;
+}
+/*
+  Speaker notes allow you to write comments within the steps, that will not
+  be displayed as part of the presentation. However, they will be picked up
+  and displayed by impressConsole.js when you press P.
+*/
+.notes {
+    display: none;
+}
+
+/* Toolbar plugin */
+.impress-enabled div#impress-toolbar {
+    position: fixed;
+    right: 1px;
+    bottom: 1px;
+    opacity: 0.6;
+    z-index: 10;
+}
+.impress-enabled div#impress-toolbar > span {
+    margin-right: 10px;
+}
+.impress-enabled div#impress-toolbar.impress-toolbar-show {
+    display: block;
+}
+.impress-enabled div#impress-toolbar.impress-toolbar-hide {
+    display: none;
+}
+
+/* Progress bar */
+.impress-progress {
+    position: absolute;
+    left: 59px;
+    bottom: 1px;
+    text-align: left;
+    font-size: 10pt;
+    opacity: 0.6;
+}
+.impress-enabled .impress-progressbar {
+  position: absolute;
+  right: 318px;
+  bottom: 1px;
+  left: 118px;
+  border-radius: 7px;
+  border: 2px solid rgba(100, 100, 100, 0.2);
+}
+.impress-progressbar {
+    right: 118px;
+}
+.impress-progressbar DIV {
+    width: 0;
+    height: 2px;
+    border-radius: 5px;
+    background: rgba(75, 75, 75, 0.4);
+    transition: width 1s linear;
+}
+.impress-enabled .impress-progress {
+  position: absolute;
+  left: 59px;
+  bottom: 1px;
+  text-align: left;
+  opacity: 0.6;
+}
+.impress-enabled #impress-help {
+    background: none repeat scroll 0 0 transparent;
+    color: #EEEEEE;
+    font-size: 80%;
+    position: fixed;
+    left: 2em;
+    bottom: 2em;
+    width: 24em;
+    border-radius: 1em;
+    padding: 1em;
+    text-align: center;
+    z-index: 100;
+    font-family: 'din-condensed', Arial, Sans;
+}
+.impress-enabled #impress-help td {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/*
+    With help from the mouse-timeout plugin, we can hide the toolbar and
+    have it show only when you move/click/touch the mouse.
+*/
+body.impress-mouse-timeout div#impress-toolbar {
+    display: none;
+}
+
+/*
+    In fact, we can hide the mouse cursor itself too, when mouse isn't used.
+*/
+body.impress-mouse-timeout {
+    cursor: none;
+}
+
+
+/*
+    And as the last thing there is a workaround for quite strange bug.
+    It happens a lot in Chrome. I don't remember if I've seen it in Firefox.
+
+    Sometimes the element positioned in 3D (especially when it's moved back
+    along Z axis) is not clickable, because it falls 'behind' the <body>
+    element.
+
+    To prevent this, I decided to make <body> non clickable by setting
+    pointer-events property to `none` value.
+    Value if this property is inherited, so to make everything else clickable
+    I bring it back on the #impress element.
+
+    If you want to know more about `pointer-events` here are some docs:
+    https://developer.mozilla.org/en/CSS/pointer-events
+
+    There is one very important thing to notice about this workaround - it makes
+    everything 'unclickable' except what's in #impress element.
+
+    So use it wisely ... or don't use at all.
+*/
+
+.impress-enabled                          { pointer-events: auto }
+.impress-enabled #impress                 { pointer-events: auto }
+
+ /*If you disable pointer-events, you need to re-enable them for the toolbar.
+   And the speaker console while at it.*/
+
+.impress-enabled #impress-toolbar         { pointer-events: auto }
+.impress-enabled #impress-console-button  { pointer-events: auto }
+
+
+/*
+    There is one funny thing I just realized.
+
+    Thanks to this workaround above everything except #impress element is invisible
+    for click events. That means that the hint element is also not clickable.
+    So basically all of this transforms and delayed transitions trickery was probably
+    not needed at all...
+
+    But it was fun to learn about it, wasn't it?
+*/
+

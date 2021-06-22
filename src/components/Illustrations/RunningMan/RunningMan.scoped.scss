@@ -1,0 +1,19 @@
+ .running-1 {
+
+transform: translate(25px, 0);
+}
+
+.animate-enter {
+  animation: animate-enter-frames 1.60s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+opacity: 0;
+transform: translate(25px, 0);
+}
+@keyframes animate-enter-frames {
+
+from{opacity: 0;
+transform: translate(25px, 0);}
+to{opacity: 1;
+transform: translate(0,0);}
+}
+.gatsby-image-wrapper img { height: auto !important; }

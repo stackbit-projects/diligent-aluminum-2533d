@@ -1,0 +1,508 @@
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
+
+.grid-container {
+  display: grid;
+  margin-top: 20%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "text image image image" ". . . ." ". . . .";
+}
+
+.image {
+  grid-area: image;
+}
+
+.text {
+  vertical-align: middle;
+  grid-area: text;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
+    gap: 0px 0px;
+    grid-template-areas: "image image image" "text" ". . . .";
+  }
+}
+@media only screen and (max-width: 480px) {
+  .span_2_of_2, .span_1_of_2 {
+    width: 100%;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: minmax(100px, 25%) 1fr;
+  }
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+@media (min-width: 576px) {
+  .sticky-sm-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+}
+@media (min-width: 768px) {
+  .sticky-md-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+}
+@media (min-width: 992px) {
+  .sticky-lg-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+}
+@media (min-width: 1200px) {
+  .sticky-xl-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+}
+@media (min-width: 1400px) {
+  .sticky-xxl-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+  }
+}
+.visually-hidden, .visually-hidden-focusable:not(:focus) {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.align-baseline {
+  vertical-align: baseline !important;
+}
+
+.align-top {
+  vertical-align: top !important;
+}
+
+.align-middle {
+  vertical-align: middle !important;
+}
+
+.align-bottom {
+  vertical-align: bottom !important;
+}
+
+.align-text-bottom {
+  vertical-align: text-bottom !important;
+}
+
+.align-text-top {
+  vertical-align: text-top !important;
+}
+
+.float-start {
+  float: left !important;
+}
+
+.float-end {
+  float: right !important;
+}
+
+.float-none {
+  float: none !important;
+}
+
+.overflow-auto {
+  overflow: auto !important;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.overflow-visible {
+  overflow: visible !important;
+}
+
+.overflow-scroll {
+  overflow: scroll !important;
+}
+
+.d-inline {
+  display: inline !important;
+}
+
+.d-inline-block {
+  display: inline-block !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.d-grid {
+  display: grid !important;
+}
+
+.d-table {
+  display: table !important;
+}
+
+.d-table-row {
+  display: table-row !important;
+}
+
+.d-table-cell {
+  display: table-cell !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.d-inline-flex {
+  display: inline-flex !important;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.shadow-none {
+  box-shadow: none !important;
+}
+
+.position-static {
+  position: static !important;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.position-absolute {
+  position: absolute !important;
+}
+
+.position-fixed {
+  position: fixed !important;
+}
+
+.position-sticky {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+}
+
+.top-0 {
+  top: 0 !important;
+}
+
+.top-50 {
+  top: 50% !important;
+}
+
+.top-100 {
+  top: 100% !important;
+}
+
+.bottom-0 {
+  bottom: 0 !important;
+}
+
+.bottom-50 {
+  bottom: 50% !important;
+}
+
+.bottom-100 {
+  bottom: 100% !important;
+}
+
+.start-0 {
+  left: 0 !important;
+}
+
+.start-50 {
+  left: 50% !important;
+}
+
+.start-100 {
+  left: 100% !important;
+}
+
+.end-0 {
+  right: 0 !important;
+}
+
+.end-50 {
+  right: 50% !important;
+}
+
+.end-100 {
+  right: 100% !important;
+}
+
+.translate-middle {
+  transform: translate(-50%, -50%) !important;
+}
+
+.translate-middle-x {
+  transform: translateX(-50%) !important;
+}
+
+.translate-middle-y {
+  transform: translateY(-50%) !important;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.grow:hover {
+  font-size: 24px;
+  padding: 17px 34.5px;
+  text-shadow: 0px 4px 0px #ef9139;
+}
+
+.pulse:hover {
+  animation-name: pulse;
+  animation-duration: 1s;
+}
+
+.skew:hover {
+  animation: skew 1s;
+}
+
+.swing:hover {
+  animation: swing 1s;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  20% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  70% {
+    transform: scale(1) translate(0, -5px);
+  }
+}
+/* Pulse animation */
+@keyframes skew {
+  0% {
+    transform: skewX(0deg);
+  }
+  10% {
+    transform: skewX(-10deg);
+  }
+  20% {
+    transform: skewX(10deg);
+  }
+  25% {
+    transform: skewX(-8deg);
+  }
+  30% {
+    transform: skewX(8deg);
+  }
+  33% {
+    transform: skewX(-4deg);
+  }
+  36% {
+    transform: skewX(4deg);
+  }
+  40% {
+    transform: skewX(0deg);
+  }
+}
+@keyframes swing {
+  0% {
+    transform: rotateZ(0deg) translate(0, 0);
+  }
+  20% {
+    transform: rotateZ(10deg) translate(5px, -2px);
+  }
+  40% {
+    transform: rotateZ(-10deg) translate(-5px, 2px);
+  }
+  60% {
+    transform: rotateZ(11deg) translate(4px, -1px);
+  }
+  80% {
+    transform: rotateZ(0deg) translate(0px, 0px);
+  }
+}
+.btn-flashy {
+  position: relative;
+  background: linear-gradient(90deg, #292929 2.11%, #000000 104.85%);
+  @apply shadow;
+  border-radius: 20px;
+  transition: all 0.6s ease;
+  overflow: hidden;
+  z-index: 1;
+  margin-bottom: 20px;
+  max-width: 200px;
+  border: 2px solid #6633FF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.btn-flashy:last-child {
+  margin-bottom: 0;
+}
+.btn-flashy span {
+  display: inline-block;
+  cursor: pointer;
+  padding: 20px;
+  line-height: 2rem;
+}
+.btn-flashy::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%);
+  z-index: -1;
+  border-radius: 20px;
+  transition: all 0.6s ease;
+}
+.btn-flashy:hover {
+  background: linear-gradient(90deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%);
+}
+.btn-flashy:hover i {
+  color: #ffffff;
+  transform: rotate(360deg);
+}
+.btn-flashy:hover h3 {
+  color: #ffffff;
+}
+.btn-flashy:hover p {
+  color: #ffffff;
+}
+.btn-flashy:hover a {
+  right: 20px;
+}
+.btn-flashy:hover::before {
+  width: 100%;
+  background: linear-gradient(90deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%);
+  border-radius: 60px 0 0 60px;
+}
+.btn-flashy.current {
+  border: 2px solid #6633FF;
+  background: linear-gradient(90deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%);
+  color: #ffffff;
+}
+.btn-flashy.current i {
+  transform: rotate(360deg);
+  color: #ffffff;
+}
+.btn-flashy.current h3 {
+  color: #ffffff;
+}
+.btn-flashy.current p {
+  color: #ffffff;
+}
+.btn-flashy.current a {
+  right: 20px;
+}
+.btn-flashy.current::before {
+  width: 100%;
+  background: linear-gradient(90deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%);
+  border-radius: 60px 0 0 60px;
+}

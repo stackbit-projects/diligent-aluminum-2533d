@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../seerist-gatsby"
+		},
+		{
+			"path": "../oakwave5"
+		},
+		{
+			"path": "../oakwave"
+		},
+		{
+			"path": "../oakwavereborn"
+		},
+		{
+			"path": "../abstract"
+		},
+		{
+			"path": "../monster"
+		},
+		{
+			"path": "../jumpx"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/node_modules": false
+		},
+		"git.ignoreLimitWarning": true,
+		"compile-hero.disable-compile-files-on-did-save-code": false
+	}
+}

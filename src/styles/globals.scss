@@ -1,0 +1,33 @@
+@import "./grid.scss";
+@import "./mixins.scss";
+$shadow: #171040;
+$transition: .6s all ease-in-out;
+$main-color: #121212;
+$white-color: #fefefe;
+$black-color: #121212;
+$border-radius: 20px;
+$heading-color: #ffffff;
+$heading-font-family: "din-condensed";
+$gradient: linear-gradient(90deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%);
+$purple-gradient: linear-gradient(180deg, #32255B 0%, #2B2A36 100%);
+$black-gradient: linear-gradient(90deg, #292929 2.11%, #000000 104.85%);
+$white: #ffffff;
+$purple: #6633FF;
+$blue: #3366FF;
+$lightblue: #0099FF;
+$gray: #B2B2B2;
+
+$body-font-family: 'Grotesk', sans-serif;
+$heading-font-family: 'din-condensed', sans-serif;
+
+$main-color: #8F6AFA;
+$body-color: #ffffff;
+$heading-color: #ffffff;
+$white-color: #ffffff;
+$black-color: #121212;
+$box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.7);
+$transition: all 0.6s ease;
+$border-radius: 4px;
+
+
+

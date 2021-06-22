@@ -1,0 +1,117 @@
+$shadow-color: #171040;
+@mixin shadow {
+    box-shadow:
+                2px 2px 1px $shadow-color,
+                3px 3px 1px $shadow-color,
+                4px 4px 1px $shadow-color,
+                5px 5px 1px $shadow-color,
+                6px 6px 1px $shadow-color,
+                7px 7px 1px $shadow-color,
+                8px 8px 1px $shadow-color,
+                9px 9px 1px $shadow-color,
+                10px 10px 1px $shadow-color,
+                11px 11px 1px $shadow-color,
+                12px 12px 1px $shadow-color;
+
+}
+
+
+
+
+@mixin gradientglass {
+    background: linear-gradient(90deg, rgba(102, 51, 255, .7) 18.59%, rgba(51, 102, 255, .7) 68.36%, rgba(0, 153, 255, .7) 105%);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    }
+
+
+@mixin glass {
+    background: rgba( 0, 0, 0, 0.60 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    }
+
+@mixin wave-link {
+    padding-bottom: 0.2ex;
+
+    &:hover {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift 0.6s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23fcf300' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+      background-position: 0 100%;
+      background-size: auto 100%;
+      background-repeat: repeat-x;
+    }
+  }
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.grow{
+    &:hover {
+      font-size: 24px;
+      padding: 17px 34.5px;
+      text-shadow: 0px 4px 0px rgba(239, 145, 57, 1);
+    }
+  }
+
+  .pulse{
+    &:hover {
+      animation-name: pulse;
+      animation-duration: 1s;
+    }
+  }
+
+  .skew {
+    &:hover {
+      animation: skew 1s;
+    }
+  }
+
+  .swing {
+    &:hover {
+      animation: swing 1s;
+    }
+  }
+
+  /* Pulse animation */
+  @keyframes pulse {
+      0% {transform: scale(1);}
+      10% {transform: scale(1.1);}
+      20% {transform: scale(1);}
+      30% {transform: scale(1.1);}
+      70% {transform: scale(1) translate(0, -5px);}
+  }
+
+  /* Pulse animation */
+  @keyframes skew {
+    0% {transform: skewX(0deg);}
+    10% {transform: skewX(-10deg);}
+    20% {transform: skewX(10deg);}
+    25% {transform: skewX(-8deg);}
+    30% {transform: skewX(8deg);}
+    33% {transform: skewX(-4deg);}
+    36% {transform: skewX(4deg);}
+    40% {transform: skewX(0deg);}
+  }
+
+  @keyframes swing {
+    0% {transform: rotateZ(0deg) translate(0,0);}
+    20% {transform: rotateZ(10deg) translate(5px,-2px);}
+    40% {transform: rotateZ(-10deg) translate(-5px,2px);}
+    60% {transform: rotateZ(11deg)  translate(4px,-1px);}
+    80% {transform: rotateZ(0deg) translate(0px,0px);}
+  }

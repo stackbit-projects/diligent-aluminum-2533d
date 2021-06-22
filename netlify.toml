@@ -1,0 +1,6 @@
+[build]
+  command = "NODE_VERSION=14.16.0 yarn dev"
+  publish = "public/"
+
+[template]
+  incoming-hooks = ["Ghost"]

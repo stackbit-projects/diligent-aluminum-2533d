@@ -1,0 +1,22 @@
+
+/*
+Section Title Area Style
+======================================================*/
+.section-title {
+	margin: -9px auto 60px;
+	text-align: center;
+	position: relative;
+
+
+
+	h2 {
+		font-size: 40px;
+		margin-bottom: 10px;
+		position: relative;
+		display: block;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

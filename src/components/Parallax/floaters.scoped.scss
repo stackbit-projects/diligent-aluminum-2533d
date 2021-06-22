@@ -1,0 +1,74 @@
+@keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  .floater-area {
+	z-index: 0;
+	overflow: hidden;
+color: #ffffff;
+
+
+	.floater-shape {
+
+		img {
+			position: absolute;
+			z-index: -1;
+			&:nth-child(1) {
+				bottom: 0;
+				left: 0;
+			}
+			&:nth-child(2) {
+				top: 0;
+				right: 0;
+			}
+			&:nth-child(3) {
+				top: 100px;
+				left: 200px;
+				animation: animationFramesOne 25s infinite linear;
+			}
+			&:nth-child(4) {
+				bottom: 80px;
+				right: 200px;
+				animation: animationFramesOne 20s infinite linear;
+			}
+			&:nth-child(5) {
+				top: 100px;
+				right: 200px;
+				animation: animationFramesOne 15s infinite linear;
+			}
+			&:nth-child(6) {
+				bottom: 80px;
+				left: 500px;
+				animation: animationFramesOne 10s infinite linear;
+			}
+			&:nth-child(7) {
+				top: 100px;
+				left: 700px;
+				animation: animationFramesOne 10s infinite linear;
+			}
+            &:nth-child(8) {
+				top: 400px;
+				left: 40px;
+				animation: animationFramesOne 10s infinite linear;
+			}
+            &:nth-child(9) {
+				top: 900px;
+				left: 400px;
+				animation: animationFramesOne 10s infinite linear;
+			}
+            &:nth-child(10) {
+				top: 10px;
+				left: 10px;
+				animation: animationFramesOne 10s infinite linear;
+			}
+
+		}
+	}
+}

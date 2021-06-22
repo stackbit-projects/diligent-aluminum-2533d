@@ -1,0 +1,65 @@
+@import "../../../styles/globals.scss";
+.button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    color: #ffffff;
+
+    //Button shape & animation
+    border-radius: 10px;
+    margin: 40px !important;
+    padding: 1em 3em;
+    background-size: 200% auto;
+    color: #ffffff;
+    transition: all 1s ease-in-out;
+
+    &:hover {
+      background-position: right center;
+      transition: all 1s ease-in-out;
+
+
+    }
+  }
+  .button a {
+    color: #ffffff !important;
+
+  }
+
+  .gradientbutton {
+      /*
+    box-shadow: 4px 5px 1px #321E92, 0 1px 3px rgba(0,0,0,.08);*/
+    box-shadow: -10px 8px 9px $shadow;
+
+    background-image: linear-gradient(270deg, #6AA2FF 0%, #6D51F2 100%);
+
+  }
+
+  .purplebutton {
+    box-shadow: -10px 8px 9px $shadow;
+background: $purple;
+
+  }
+
+  .indigobutton {
+    box-shadow: -10px 8px 9px $shadow;
+background: $blue;
+
+  }
+  .lightbluebutton {
+    box-shadow: -10px 8px 9px $shadow;
+background: $lightblue;
+
+  }
+  .blackbutton {
+    box-shadow: -10px 8px 9px $shadow;
+background: $black-gradient;
+
+  }
+  .darkknightrisesbutton {
+    box-shadow: -10px 8px 9px $shadow;
+    background-image: linear-gradient(180deg, #32255B 0%, #2B2A36 100%);
+
+  }
+

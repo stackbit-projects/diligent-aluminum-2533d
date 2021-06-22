@@ -1,0 +1,83 @@
+@import "./animate.css";
+@import "./bits.css";
+@import './layers.css';
+@import './mixins.css';
+@import './type.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.logoholder {
+     display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+:root {
+  --azure-radiance:
+rgba(0, 153, 255, 1);
+  --licorice:
+rgba(18, 18, 18, 1);
+  --haiti:
+rgba(23, 16, 64, 1);
+  --log-cabin:
+rgba(33, 33, 33, 1);
+  --mine-shaft-2:
+rgba(45, 47, 51, 1);
+  --mine-shaft:
+rgba(51, 51, 51, 1);
+  --blue:
+rgba(51, 102, 255, 1);
+  --ship-gray:
+rgba(62, 62, 62, 1);
+  --purple-heart:
+rgba(102, 51, 255, 1);
+  --rock-blue:
+rgba(152, 180, 208, 1);
+  --rock-blue:
+rgba(153, 180, 209, 1);
+  --star-dust:
+rgba(160, 160, 160, 1);
+  --regent-st-blue:
+rgba(174, 215, 236, 1);
+  --biloba-flower:
+rgba(183, 163, 254, 1);
+  --botticelli:
+rgba(204, 217, 232, 1);
+  --link-water:
+rgba(219, 225, 235, 1);
+  --mystic:
+rgba(224, 232, 242, 1);
+  --athens-gray:
+rgba(231, 237, 245, 1);
+  --wild-sand:
+rgba(242, 244, 246, 1);
+  --white-lilac:
+rgba(247, 249, 252, 1);
+  --neon-carrot:
+rgba(254, 148, 60, 1);
+  --white:
+rgba(255, 255, 255, 1);
+
+  --font-size-xxxxxs: 6px;
+  --font-size-xxxxs: 11px;
+  --font-size-xxxs: 12px;
+  --font-size-xxs: 13px;
+  --font-size-xxs: 14px;
+  --font-size-xs: 15px;
+  --font-size-s: 16px;
+  --font-size-m: 17px;
+  --font-size-m: 48px;
+  --font-size-l: 20px;
+  --font-size-l: 28px;
+  --font-size-xl: 24px;
+  --font-size-xl: 40px;
+  --font-size-xxxl: 30px;
+  --font-size-xxxxxxl: 180px;
+  --font-size-xxxxxxxl: 260px;
+
+  --font-family-dincondensed-bold: "DINCondensed-Bold";
+  --font-family-roboto: "Roboto";
+  --font-family-roboto-bold: "Roboto-Bold";
+  --font-family-roboto-regular: "Roboto-Regular";
+}
+
+

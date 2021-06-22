@@ -1,0 +1,32 @@
+{
+  "name": "impress-react-component",
+  "version": "1.0.4",
+  "description": "Impress.js Components for React",
+  "main": "src/index.js",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "react": "^15.3.1",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "react-dom": "^15.3.1",
+    "webpack": "^1.13.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "react",
+    "impress",
+    "presentation",
+    "component"
+  ],
+  "author": "Alireza Sheikholmolouki",
+  "license": "MIT"
+}

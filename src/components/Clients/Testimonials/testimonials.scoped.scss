@@ -1,0 +1,74 @@
+@import "../../../styles/globals.scss";
+/*
+Client Area Style
+======================================================*/
+.testimonials-area {
+
+	.owl-carousel {
+		.owl-item img {
+			width: unset;
+		}
+	}
+}
+.single-client {
+	text-align: center;
+	background: $black-gradient;
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 165px;
+	border-radius: $border-radius;
+    min-height: 200px;
+    @apply shadow;
+	padding: {
+		top: 50px;
+		left: 30px;
+		right: 30px;
+		bottom: 30px;
+	}
+	.quotes {
+		background-color: $white-color;
+		color: $black-color;
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		font-size: 30px;
+		border-radius: 50%;
+		display: inline-block;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: auto;
+		top: -30px;
+        padding-right: 20px;
+	}
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+		li {
+			display: inline-block;
+			margin: 0 2px;
+			i {
+				font-size: 20px;
+				color: orange;
+			}
+		}
+	}
+
+}
+.client-img {
+width: 100%;
+	h3 {
+		margin-bottom: 0;
+		font-size: 20px;
+		color: $white-color;
+	}
+	span {
+		font-weight: 600;
+		font-size: 13px;
+		line-height: 1;
+		color: $gray;
+	}
+}
+
+

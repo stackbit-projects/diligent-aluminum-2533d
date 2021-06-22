@@ -1,0 +1,162 @@
+
+@import "../../../styles/globals.scss";
+
+.features-area {
+	position: relative;
+	z-index: 1;
+}
+.choose-title {
+	margin-top: -9px;
+	margin-bottom: 30px;
+	span {
+		font-size: 14px;
+		color: #ffffff;
+		display: inline-block;
+		margin-bottom: 8px;
+	}
+	h2 {
+		font-size: 40px;
+		margin-bottom: 0;
+	}
+}
+.problems-we-solve-content {
+	ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		li {
+			position: relative;
+			padding-left: 120px;
+			padding-right: 30px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			margin-bottom: 30px;
+			transition: $transition;
+            @include glass;
+            border-color: #ffffff 1px solid;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			span {
+				width: 70px;
+				height: 70px;
+				line-height: 70px;
+				text-align: center;
+				position: relative;
+				border: 1px solid #ffffff;
+				border-radius: 50%;
+				font-size: 30px;
+				font-weight: 600;
+				color: $white;
+				animation: border-transform 10s linear infinite alternate forwards;
+				transition: $transition;
+				background: $gradient;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 25px;
+				display: inline-block;
+				position: absolute;
+                top: 35px;
+    			left: 30px;
+				i {
+					position: absolute;
+					top: 50px;
+					left: 30px;
+					width: 40px;
+					height: 40px;
+					line-height: 40px;
+					background-color: $white-color;
+					border-radius: 50%;
+					display: inline-block;
+					font-size: 25px;
+					color: #dcddfa;
+				}
+			}
+			h3 {
+				margin-bottom: 10px;
+			}
+            &:nth-child(1) {
+				span {
+                    background: $gradient;
+					i {
+						color: $white;
+					}
+				}
+			}
+			&:nth-child(2) {
+				span {
+                    background: $gradient;
+					i {
+						color: $white;
+					}
+				}
+			}
+			&:nth-child(2) {
+				span {
+                    background: $gradient;
+					i {
+						color: #000000;
+					}
+				}
+			}
+			&:hover {
+				transform: translateY(-5px);
+			}
+		}
+	}
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+}
+@media only screen and (min-width: 1824px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .problems-we-solve-content ul li:last-child {
+        margin-bottom: 30px;
+    }
+    .problems-we-solve-area {
+        .col-8 {
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
+    .choose-title {
+        margin-bottom: 40px;
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .problems-we-solve-content ul {
+        li {
+            max-width: 47%;
+            display: inline-block;
+        }
+        .ml {
+            margin-left: 30px;
+        }
+        .ml-25 {
+            margin-left: 25%;
+        }
+    }
+    .problems-we-solve-content {
+        ul {
+            li {
+                padding-left: 20px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-right: 20px;
+                span {
+                    position: unset;
+                     i {
+                        top: 60px;
+                        left: 70px;
+                     }
+                }
+            }
+        }
+    }
+    .choose-img {
+        text-align: center;
+    }}
+

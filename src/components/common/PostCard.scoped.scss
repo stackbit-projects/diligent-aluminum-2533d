@@ -1,0 +1,29 @@
+@import "../../styles/globals.scss";
+
+.post-card-image, .post-card-header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.post-card-tags {
+    background: $gradient;
+    width: fit-content;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+padding-left: 10px;
+}
+
+.post-card-tags span a{
+    font-size: 11px;
+    font-weight: 700;
+    color: #ffffff;
+font-family: neue-haas-grotesk-display, sans-serif;
+
+
+}
+.top-left-and-right-rounded {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}

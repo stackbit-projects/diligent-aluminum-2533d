@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "https://blog.oakwave.com",
+    "contentApiKey": "2c90a741e13ea16e4390cdb820"
+  },
+  "production": {
+    "apiUrl": "https://blog.oakwave.com",
+    "contentApiKey": "2c90a741e13ea16e4390cdb820"
+  }
+}

@@ -1,0 +1,194 @@
+.choose-content ul li
+{
+    position: relative;
+    padding-left: 120px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(
+90deg
+, #292929 2.11%, #000000 104.85%);
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 70%);
+    margin-bottom: 30px;
+    transition: all 0.6s ease;
+    border-radius: 20px;
+}
+.choose-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: disc;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+.choose-content ul li span {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    position: relative;
+    border: 2px dotted #ffffff;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    animation: border-transform 7s linear infinite alternate forwards;
+    transition: all 0.6s ease;
+    background-color: #dcddfa;
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 70%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    left: 30px;
+}
+.choose-content ul li span i {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 70%);
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 25px;
+    color: #dcddfa;
+}
+
+.choose-content ul li span {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    position: relative;
+    border: 2px dotted #ffffff;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    animation: border-transform 7s linear infinite alternate forwards;
+    transition: all 0.6s ease;
+    background-color: #dcddfa;
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 70%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    left: 30px;
+}
+.prose blockquote {
+    border-left: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(180deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%);
+  }
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+p, .p, body, section {
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+@media (min-width: 1536px) {
+.container {
+    max-width: 1536px;
+}}
+@media (min-width: 1280px){
+.container {
+    max-width: 1280px;
+}}
+@media (min-width: 1024px){
+.container {
+    max-width: 1024px;
+}}
+@media (min-width: 768px){
+.container {
+    max-width: 768px;
+}}
+@media (min-width: 640px){
+.container {
+    max-width: 640px;
+}}
+.container {
+    width: 100%;
+}
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+}}
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+}}
+@media (min-width: 992px){
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 960px;
+}}
+@media (min-width: 768px){
+.container, .container-md, .container-sm {
+    max-width: 720px;
+}}
+@media (min-width: 576px){
+.container, .container-sm {
+    max-width: 540px;
+}}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.align-items-center {
+    align-items: center!important;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+@media (min-width: 992px){
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+}
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y);
+}
